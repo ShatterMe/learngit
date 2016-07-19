@@ -1,0 +1,10 @@
+@import "variables","mixin";
+#wrap {
+	width: 100%;
+	position: $pos-r;
+	background-image: url(../images/background.jpg);
+	background-size: $size-c;
+}
+.container {
+	@include center();
+}
